@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Feminae/static/css/main.c1dd9b9d.css",
+    "main.js": "/Feminae/static/js/main.8456078c.js",
+    "static/js/488.35274840.chunk.js": "/Feminae/static/js/488.35274840.chunk.js",
+    "static/media/image.png": "/Feminae/static/media/image.efb3b9909bf6409b6e96.png",
+    "index.html": "/Feminae/index.html",
+    "main.c1dd9b9d.css.map": "/Feminae/static/css/main.c1dd9b9d.css.map",
+    "main.8456078c.js.map": "/Feminae/static/js/main.8456078c.js.map",
+    "488.35274840.chunk.js.map": "/Feminae/static/js/488.35274840.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1dd9b9d.css",
+    "static/js/main.8456078c.js"
+  ]
+}
