@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 dark:bg-gray-900;
+}
+
+/* Chat container styles */
+.chat-container {
+  @apply flex flex-col h-screen;
+}
+
+.chat-header {
+  @apply p-4 flex items-center justify-between shadow-lg text-white;
+}
+
+.chat-messages {
+  @apply flex-grow overflow-y-auto p-4 space-y-4 bg-gray-50 dark:bg-gray-800;
+}
+
+.chat-input {
+  @apply bg-white dark:bg-gray-700 p-4 border-t flex items-center space-x-2;
+}
+
+.chat-input button {
+  @apply text-gray-500 hover:text-blue-500 transition;
+}
+
+.chat-input input {
+  @apply flex-grow p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+.chat-send-button {
+  @apply bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.justify-end .rounded-lg {
+  @apply bg-gradient-to-r from-blue-500 to-purple-500 text-white;
+}
+
+.flex.justify-start .rounded-lg {
+  @apply bg-gray-200 text-black;
+}
+
+.italic {
+  @apply text-gray-400;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in-down {
+  animation: fadeIn 0.5s ease-out;
+}
