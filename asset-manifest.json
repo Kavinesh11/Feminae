@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Feminae/static/css/main.c1dd9b9d.css",
-    "main.js": "/Feminae/static/js/main.6f1ef496.js",
+    "main.js": "/Feminae/static/js/main.9363cc6f.js",
     "static/media/image.png": "/Feminae/static/media/image.efb3b9909bf6409b6e96.png",
     "index.html": "/Feminae/index.html",
     "main.c1dd9b9d.css.map": "/Feminae/static/css/main.c1dd9b9d.css.map",
-    "main.6f1ef496.js.map": "/Feminae/static/js/main.6f1ef496.js.map"
+    "main.9363cc6f.js.map": "/Feminae/static/js/main.9363cc6f.js.map"
   },
   "entrypoints": [
     "static/css/main.c1dd9b9d.css",
-    "static/js/main.6f1ef496.js"
+    "static/js/main.9363cc6f.js"
   ]
 }
